@@ -1,0 +1,11 @@
+# Ignora archivos del sistema Mac 
+**/.DS_Store
+
+# Ignora la carpeta node_modules
+**/node_modules
+
+# Ignora la carpeta vendor
+**/vendor
+
+# Ignora la carpeta vendor
+**/public/build
