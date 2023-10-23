@@ -7,5 +7,5 @@
 # Ignora la carpeta vendor
 **/vendor
 
-# Ignora la carpeta vendor
+# Ignora la carpeta build
 **/public/build
