@@ -23,7 +23,7 @@
                 <li class="paquete__elemento">Comida y Bebida</li>
             </ul>
 
-            <p class="paquete__precio">$199</p>
+            <p class="paquete__precio">$99</p>
         </div>
 
         <div class="paquete">

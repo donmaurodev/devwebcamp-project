@@ -114,7 +114,7 @@
         <div <?php aos_animacion(); ?> class="boleto boleto--presencial">
             <h4 class="boleto__logo">&#60;DevWebCamp /></h4>
             <p class="boleto__plan">Presencial</p>
-            <p class="boleto__precio">$199</p>
+            <p class="boleto__precio">$99</p>
         </div>
 
         <div <?php aos_animacion(); ?> class="boleto boleto--virtual">
