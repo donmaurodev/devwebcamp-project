@@ -21,7 +21,7 @@ class DashboardController {
         $virtuales = Registro::total('paquete_id', 2);
         $presenciales = Registro::total('paquete_id', 1);
 
-        $ingresos = ($virtuales * 46.41) + ($presenciales * 189.54);
+        $ingresos = ($virtuales * 49.00) + ($presenciales * 99.00);
 
         // Obtener eventos con más y menos lugares disponibles
         $menos_disponibles = Evento::ordenarLimite('disponibles', 'ASC', 5);

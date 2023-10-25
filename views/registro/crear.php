@@ -58,7 +58,7 @@
     </div>
 </main>
 
-  <script src="https://www.paypal.com/sdk/js?client-id=Adc6YGqAvfmtD_7WCDB9mf3AidMfM18ZQr49mGkIHEOF8XuFTW7aAMFuB09wVfMsKy54lOoFfpWqL3HS&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=AaB7OhMISiXbhwVyUC0aXqc3yC8BP_J4PIBAaiScVP4onzke5KaH2YMbKIs4kAvclYs8omcZaMPJIKOy&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
 
   <script>
     function initPayPalButton() {
@@ -72,7 +72,7 @@
 
         createOrder: function(data, actions) {
           return actions.order.create({
-            purchase_units: [{"description":"1","amount":{"currency_code":"USD","value":199}}]
+            purchase_units: [{"description":"1","amount":{"currency_code":"USD","value":99}}]
           });
         },
 
