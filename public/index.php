@@ -14,6 +14,7 @@ use Controllers\PonentesController;
 use Controllers\RegistroController;
 use Controllers\DashboardController;
 use Controllers\RegistradosController;
+use Controllers\InscritosController;
 
 $router = new Router();
 
@@ -64,6 +65,9 @@ $router->get('/api/regalos', [APIRegalos::class, 'index']);
 $router->get('/admin/registrados', [RegistradosController::class, 'index']);
 
 $router->get('/admin/regalos', [RegalosController::class, 'index']);
+
+$router->get('/admin/inscritos', [InscritosController::class, 'index']);
+
 
 // Registro de Usuarios
 $router->get('/finalizar-registro', [RegistroController::class, 'crear']);

@@ -27,16 +27,16 @@
                 Registrados
             </span>    
         </a>
-        <a href="#" class="dashboard__enlace <?php echo pagina_actual('/facturas') ? 'dashboard__enlace--actual' : ''; ?> ">
-            <i class="fa-solid fa-file-pdf dashboard__icono"></i>
-            <span class="dashboard__menu-texto">
-                Reportes
-            </span>    
-        </a>
         <a href="/admin/regalos" class="dashboard__enlace <?php echo pagina_actual('/regalos') ? 'dashboard__enlace--actual' : ''; ?> ">
             <i class="fa-solid fa-gift dashboard__icono"></i>
             <span class="dashboard__menu-texto">
                 Regalos
+            </span>    
+        </a>
+        <a href="/admin/inscritos" class="dashboard__enlace <?php echo pagina_actual('/inscritos') ? 'dashboard__enlace--actual' : ''; ?> ">
+            <i class="fa-solid fa-check-circle dashboard__icono"></i>
+            <span class="dashboard__menu-texto">
+                Inscritos
             </span>    
         </a>
     </nav>
